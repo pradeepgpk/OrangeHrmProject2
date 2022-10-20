@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E202" />
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="selenium.explicitwait.ignored_exception" />
+          <option value="selenium1.mouse_hover_action.Actionchains" />
+          <option value="list.text" />
+          <option value="selenium.webdriver.firefox.options.Options.add_experimental_option" />
+          <option value="selenium.explicit_wait.WebdriverWait" />
+          <option value="selenium.explicit_wait.EC" />
+          <option value="testcases.conftest.webdriver_manager" />
+          <option value="mysql.connector" />
+          <option value="mysql.mysql.connector" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
