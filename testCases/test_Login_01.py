@@ -1,3 +1,5 @@
+import time
+
 from pageObjects.LoginPage import Login
 from utilities import customlogger
 from utilities.readproperties import ReadConfig
@@ -20,7 +22,7 @@ class Test_Login_01:
         self.loginpageobj.setPassword(self.password)
         self.loginpageobj.clickLogin()
         self.confmsg = self.loginpageobj.pim()
-
+        time.sleep(3)
         if self.confmsg == "PIM":
             self.logger.info("***************** Login Successful Test Is Passed ***********************")
             self.driver.close()
@@ -30,3 +32,4 @@ class Test_Login_01:
             self.logger.info("***************** Login Unsuccessful Test Is Failed ***********************")
             self.driver.close()
             assert False
+        self.logger.info("************** Completed TC_Login_01 *********************")

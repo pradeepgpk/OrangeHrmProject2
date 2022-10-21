@@ -6,6 +6,7 @@ class AddNewEmployee:
     pim_add_xpath = "//button[normalize-space()='Add']"
     fst_name_xpath = "//input[@placeholder='First Name']"
     lst_name_xpath = "//input[@placeholder='Last Name']"
+    emp_id_xpath = "//div[2]/input[@class='oxd-input oxd-input--active']"
     save_btn_xpath = "//button[normalize-space()='Save']"
     txt_nickname_xpath = "//div[1]/div/div/div/div[2]/input[@class='oxd-input oxd-input--active']"
     other_id_Xpath = "//div[2]/div[1]/div[2]//div[2]/input[@class='oxd-input oxd-input--active']"
@@ -30,7 +31,10 @@ class AddNewEmployee:
     btn_search_xpath = "//button[@type='submit']"
     btn_edit_xpath = "//button/i[@class ='oxd-icon bi-pencil-fill']"
     btn_delete_xpath = "//button/i[@class='oxd-icon bi-trash']"
-    btn_deleteConformation_xpath = "//div[3]/button[2]"
+    btn_conformdelete_xpath = "//div[3]/button[2]"
+    txt_save_mes_xpath = "//*[text()='Successfully Saved']"
+    txt_update_mes_xpath = "//*[text()='Successfully Updated']"
+    txt_delete_mes_xpath = "//*[text()='Successfully Deleted']"
     def __init__(self, driver):
         self.driver = driver
     def addPim(self):
@@ -39,10 +43,12 @@ class AddNewEmployee:
         self.driver.find_element(By.XPATH,self.fst_name_xpath).send_keys(firstname)
     def lastName(self,lastname):
         self.driver.find_element(By.XPATH,self.lst_name_xpath).send_keys(lastname)
+    def employeeId(self,Id):
+        self.driver.find_element(By.XPATH,self.emp_id_xpath).send_keys(Id)
     def clickSave(self):
         self.driver.find_element(By.XPATH,self.save_btn_xpath).click()
     def nickName(self,nickname):
-        time.sleep(2)
+        time.sleep(3)
         self.driver.find_element(By.XPATH, self.txt_nickname_xpath).send_keys(nickname)
     def otherId(self,otherid):
         self.driver.find_element(By.XPATH, self.other_id_Xpath).send_keys(otherid)
@@ -90,4 +96,19 @@ class AddNewEmployee:
         self.driver.find_element(By.XPATH, self.pd_save_btn_xpath).click()
     def delete(self):
         self.driver.find_element(By.XPATH, self.btn_delete_xpath).click()
-        self.driver.find_element(By.XPATH, self.btn_deleteConformation_xpath).click()
+        self.driver.find_element(By.XPATH, self.btn_conformdelete_xpath).click()
+    def saveConformation(self):
+        try:
+            return self.driver.find_element(By.XPATH,self.txt_save_mes_xpath).is_displayed()
+        except:
+            return False
+    def updateConformation(self):
+        try:
+            return self.driver.find_element(By.XPATH, self.txt_update_mes_xpath).is_displayed()
+        except:
+            return False
+    def deleteConformation(self):
+        try:
+            return self.driver.find_element(By.XPATH, self.txt_delete_mes_xpath).is_displayed()
+        except:
+            return False

@@ -1,3 +1,5 @@
+import time
+
 from pageObjects.LoginPage import Login
 from pageObjects.Pimpage import AddNewEmployee
 from utilities import customlogger
@@ -27,5 +29,16 @@ class Test_PIM_02:
         self.pimpageobj.search()
         self.pimpageobj.edit()
         self.pimpageobj.editMaritalStatus()
-        self.driver.close()
-        self.logger.info("***************** Successfully Edit an exiting employee *****************")
+        self.update = self.pimpageobj.updateConformation()
+        time.sleep(3)
+        if self.update == True:
+            self.logger.info("***************** Successfully Edit an exiting employee *******************")
+            self.driver.close()
+            assert True
+        else:
+            self.logger.info("***************** Edit an exiting employee Unsuccessful  ******************")
+            self.driver.close()
+            assert False
+        self.logger.info("************** Completed TC_PIM_02 *********************")
+
+

@@ -1,3 +1,5 @@
+import time
+
 from pageObjects.LoginPage import Login
 from pageObjects.Pimpage import AddNewEmployee
 from utilities import customlogger
@@ -28,6 +30,7 @@ class Test_PIM_01:
         self.logger.info("***************** Providing personal details ****************************")
         self.pimpageobj.firstName("pradeep")
         self.pimpageobj.lastName("G")
+        self.pimpageobj.employeeId(7)
         self.pimpageobj.clickSave()
         self.pimpageobj.nickName("bala")
         self.pimpageobj.otherId(17808)
@@ -43,5 +46,14 @@ class Test_PIM_01:
         self.pimpageobj.personalDetailSave()
         self.pimpageobj.bloodType()
         self.pimpageobj.customFieldsSave()
-        self.driver.close()
-        self.logger.info("***************** Successfully Added New Employee ****************************")
+        self.save = self.pimpageobj.saveConformation()
+        time.sleep(3)
+        if self.save == True:
+            self.logger.info("***************** Successfully Added New Employee ****************************")
+            # self.driver.close()
+            assert True
+        else:
+            self.logger.info("***************** Add New Employee Unsuccessful  ****************************")
+            # self.driver.close()
+            assert False
+        self.logger.info("************** Completed TC_PIM_01 *********************")

@@ -1,3 +1,5 @@
+import time
+
 from pageObjects.LoginPage import Login
 from pageObjects.Pimpage import AddNewEmployee
 from utilities import customlogger
@@ -26,5 +28,14 @@ class Test_PIM_03:
         self.pimpageobj.employeename("pradeep")
         self.pimpageobj.search()
         self.pimpageobj.delete()
-        self.driver.close()
-        self.logger.info("***************** Successfully delete an exiting employee *****************")
+        self.delete = self.pimpageobj.deleteConformation()
+        time.sleep(3)
+        if self.delete == True:
+            self.logger.info("***************** Successfully delete an exiting employee ****************************")
+            self.driver.close()
+            assert True
+        else:
+            self.logger.info("***************** delete an exiting employee Unsuccessful  ****************************")
+            self.driver.close()
+            assert False
+        self.logger.info("************** Completed TC_PIM_03 *********************")

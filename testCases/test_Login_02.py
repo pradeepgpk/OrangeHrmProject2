@@ -1,3 +1,5 @@
+import time
+
 from pageObjects.LoginPage import Login
 from utilities import customlogger
 from utilities.readproperties import ReadConfig
@@ -20,6 +22,7 @@ class Test_Login_02:
         self.loginpageobj.setPassword("Invalid password")
         self.loginpageobj.clickLogin()
         self.confmsg = self.loginpageobj.conformationmsg()
+        time.sleep(3)
         if self.confmsg == "Invalid credentials":
             self.logger.info("***************** Login Unsuccessful TestCase passed ***********************")
             self.driver.close()
@@ -29,3 +32,4 @@ class Test_Login_02:
             self.logger.info("***************** TestCase Failed ***********************")
             self.driver.close()
             assert False
+        self.logger.info("************** Completed TC_Login_02 *********************")
