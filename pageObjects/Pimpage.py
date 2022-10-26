@@ -6,7 +6,6 @@ class AddNewEmployee:
     pim_add_xpath = "//button[normalize-space()='Add']"
     fst_name_xpath = "//input[@placeholder='First Name']"
     lst_name_xpath = "//input[@placeholder='Last Name']"
-    emp_id_xpath = "//div[2]/input[@class='oxd-input oxd-input--active']"
     save_btn_xpath = "//button[normalize-space()='Save']"
     txt_nickname_xpath = "//div[1]/div/div/div/div[2]/input[@class='oxd-input oxd-input--active']"
     other_id_Xpath = "//div[2]/div[1]/div[2]//div[2]/input[@class='oxd-input oxd-input--active']"
@@ -43,14 +42,14 @@ class AddNewEmployee:
         self.driver.find_element(By.XPATH,self.fst_name_xpath).send_keys(firstname)
     def lastName(self,lastname):
         self.driver.find_element(By.XPATH,self.lst_name_xpath).send_keys(lastname)
-    def employeeId(self,Id):
-        self.driver.find_element(By.XPATH,self.emp_id_xpath).send_keys(Id)
     def clickSave(self):
+        time.sleep(2)
         self.driver.find_element(By.XPATH,self.save_btn_xpath).click()
     def nickName(self,nickname):
         time.sleep(3)
         self.driver.find_element(By.XPATH, self.txt_nickname_xpath).send_keys(nickname)
     def otherId(self,otherid):
+        time.sleep(2)
         self.driver.find_element(By.XPATH, self.other_id_Xpath).send_keys(otherid)
     def drivingLicenseNumber(self,driverlicnum):
         self.driver.find_element(By.XPATH, self.driver_lic_num_xpath).send_keys(driverlicnum)

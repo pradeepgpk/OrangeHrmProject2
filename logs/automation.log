@@ -1,0 +1,195 @@
+10/26/2022 08:15:09 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:09 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:09 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:09 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:09 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:09 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:09 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:09 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:09 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:09 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:10 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:10 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:10 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:10 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:10 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:11 PM: INFO: ***************** TC_Login_01 ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** TC_Login_01 ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** TC_Login_01 ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** TC_Login_01 ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** TC_Login_01 ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** Varifying Employee Login ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** Varifying Employee Login ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** Varifying Employee Login ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** Varifying Employee Login ***********************
+10/26/2022 08:15:11 PM: INFO: ***************** Varifying Employee Login ***********************
+10/26/2022 08:15:29 PM: INFO: ***************** Login Successful Test Is Passed ***********************
+10/26/2022 08:15:29 PM: INFO: ***************** Login Successful Test Is Passed ***********************
+10/26/2022 08:15:29 PM: INFO: ***************** Login Successful Test Is Passed ***********************
+10/26/2022 08:15:29 PM: INFO: ***************** Login Successful Test Is Passed ***********************
+10/26/2022 08:15:29 PM: INFO: ***************** Login Successful Test Is Passed ***********************
+10/26/2022 08:15:45 PM: INFO: ************** Completed TC_Login_01 *********************
+10/26/2022 08:15:45 PM: INFO: ************** Completed TC_Login_01 *********************
+10/26/2022 08:15:45 PM: INFO: ************** Completed TC_Login_01 *********************
+10/26/2022 08:15:45 PM: INFO: ************** Completed TC_Login_01 *********************
+10/26/2022 08:15:45 PM: INFO: ************** Completed TC_Login_01 *********************
+10/26/2022 08:15:45 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:45 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:45 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:45 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:45 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:15:45 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:45 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:45 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:45 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:45 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:15:46 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:46 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:46 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:46 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:46 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:15:47 PM: INFO: ***************** TC_Login_02 ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** TC_Login_02 ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** TC_Login_02 ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** TC_Login_02 ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** TC_Login_02 ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** Varifying Invalid Employee login ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** Varifying Invalid Employee login ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** Varifying Invalid Employee login ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** Varifying Invalid Employee login ***********************
+10/26/2022 08:15:47 PM: INFO: ***************** Varifying Invalid Employee login ***********************
+10/26/2022 08:16:00 PM: INFO: ***************** Login Unsuccessful TestCase passed ***********************
+10/26/2022 08:16:00 PM: INFO: ***************** Login Unsuccessful TestCase passed ***********************
+10/26/2022 08:16:00 PM: INFO: ***************** Login Unsuccessful TestCase passed ***********************
+10/26/2022 08:16:00 PM: INFO: ***************** Login Unsuccessful TestCase passed ***********************
+10/26/2022 08:16:00 PM: INFO: ***************** Login Unsuccessful TestCase passed ***********************
+10/26/2022 08:16:16 PM: INFO: ************** Completed TC_Login_02 *********************
+10/26/2022 08:16:16 PM: INFO: ************** Completed TC_Login_02 *********************
+10/26/2022 08:16:16 PM: INFO: ************** Completed TC_Login_02 *********************
+10/26/2022 08:16:16 PM: INFO: ************** Completed TC_Login_02 *********************
+10/26/2022 08:16:16 PM: INFO: ************** Completed TC_Login_02 *********************
+10/26/2022 08:16:16 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:16:16 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:16:16 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:16:16 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:16:16 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:16:16 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:16:16 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:16:16 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:16:16 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:16:16 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:16:17 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:16:17 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:16:17 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:16:17 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:16:17 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:16:18 PM: INFO: ***************** TC_PIM_01****************************
+10/26/2022 08:16:18 PM: INFO: ***************** TC_PIM_01****************************
+10/26/2022 08:16:18 PM: INFO: ***************** TC_PIM_01****************************
+10/26/2022 08:16:18 PM: INFO: ***************** TC_PIM_01****************************
+10/26/2022 08:16:18 PM: INFO: ***************** TC_PIM_01****************************
+10/26/2022 08:16:18 PM: INFO: ***************** Varifying Add a new employee ****************************
+10/26/2022 08:16:18 PM: INFO: ***************** Varifying Add a new employee ****************************
+10/26/2022 08:16:18 PM: INFO: ***************** Varifying Add a new employee ****************************
+10/26/2022 08:16:18 PM: INFO: ***************** Varifying Add a new employee ****************************
+10/26/2022 08:16:18 PM: INFO: ***************** Varifying Add a new employee ****************************
+10/26/2022 08:16:22 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:16:22 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:16:22 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:16:22 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:16:22 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:16:26 PM: INFO: ***************** Providing personal details ****************************
+10/26/2022 08:16:26 PM: INFO: ***************** Providing personal details ****************************
+10/26/2022 08:16:26 PM: INFO: ***************** Providing personal details ****************************
+10/26/2022 08:16:26 PM: INFO: ***************** Providing personal details ****************************
+10/26/2022 08:16:26 PM: INFO: ***************** Providing personal details ****************************
+10/26/2022 08:16:43 PM: INFO: ***************** Successfully Added New Employee ****************************
+10/26/2022 08:16:43 PM: INFO: ***************** Successfully Added New Employee ****************************
+10/26/2022 08:16:43 PM: INFO: ***************** Successfully Added New Employee ****************************
+10/26/2022 08:16:43 PM: INFO: ***************** Successfully Added New Employee ****************************
+10/26/2022 08:16:43 PM: INFO: ***************** Successfully Added New Employee ****************************
+10/26/2022 08:17:00 PM: INFO: ************** Completed TC_PIM_01 *********************
+10/26/2022 08:17:00 PM: INFO: ************** Completed TC_PIM_01 *********************
+10/26/2022 08:17:00 PM: INFO: ************** Completed TC_PIM_01 *********************
+10/26/2022 08:17:00 PM: INFO: ************** Completed TC_PIM_01 *********************
+10/26/2022 08:17:00 PM: INFO: ************** Completed TC_PIM_01 *********************
+10/26/2022 08:17:00 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:00 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:00 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:00 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:00 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:00 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:00 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:00 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:00 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:00 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:00 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:00 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:00 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:00 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:00 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:01 PM: INFO: ***************** TC_PIM_02 ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** TC_PIM_02 ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** TC_PIM_02 ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** TC_PIM_02 ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** TC_PIM_02 ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** Varifying Edit an exiting employee ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** Varifying Edit an exiting employee ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** Varifying Edit an exiting employee ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** Varifying Edit an exiting employee ****************************
+10/26/2022 08:17:01 PM: INFO: ***************** Varifying Edit an exiting employee ****************************
+10/26/2022 08:17:14 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:14 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:14 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:14 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:14 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:27 PM: INFO: ***************** Successfully Edit an exiting employee *******************
+10/26/2022 08:17:27 PM: INFO: ***************** Successfully Edit an exiting employee *******************
+10/26/2022 08:17:27 PM: INFO: ***************** Successfully Edit an exiting employee *******************
+10/26/2022 08:17:27 PM: INFO: ***************** Successfully Edit an exiting employee *******************
+10/26/2022 08:17:27 PM: INFO: ***************** Successfully Edit an exiting employee *******************
+10/26/2022 08:17:44 PM: INFO: ************** Completed TC_PIM_02 *********************
+10/26/2022 08:17:44 PM: INFO: ************** Completed TC_PIM_02 *********************
+10/26/2022 08:17:44 PM: INFO: ************** Completed TC_PIM_02 *********************
+10/26/2022 08:17:44 PM: INFO: ************** Completed TC_PIM_02 *********************
+10/26/2022 08:17:44 PM: INFO: ************** Completed TC_PIM_02 *********************
+10/26/2022 08:17:44 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:44 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:44 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:44 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:44 PM: INFO: ====== WebDriver manager ======
+10/26/2022 08:17:44 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:44 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:44 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:44 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:44 PM: INFO: Get LATEST chromedriver version for google-chrome 106.0.5249
+10/26/2022 08:17:44 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:44 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:44 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:44 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:44 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\106.0.5249\chromedriver.exe] found in cache
+10/26/2022 08:17:45 PM: INFO: ***************** TC_PIM_03 ****************************
+10/26/2022 08:17:45 PM: INFO: ***************** TC_PIM_03 ****************************
+10/26/2022 08:17:45 PM: INFO: ***************** TC_PIM_03 ****************************
+10/26/2022 08:17:45 PM: INFO: ***************** TC_PIM_03 ****************************
+10/26/2022 08:17:45 PM: INFO: ***************** TC_PIM_03 ****************************
+10/26/2022 08:17:45 PM: INFO: ***************** Varifying delete an exiting employee ******************
+10/26/2022 08:17:45 PM: INFO: ***************** Varifying delete an exiting employee ******************
+10/26/2022 08:17:45 PM: INFO: ***************** Varifying delete an exiting employee ******************
+10/26/2022 08:17:45 PM: INFO: ***************** Varifying delete an exiting employee ******************
+10/26/2022 08:17:45 PM: INFO: ***************** Varifying delete an exiting employee ******************
+10/26/2022 08:17:54 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:54 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:54 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:54 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:17:54 PM: INFO: ***************** Successfully Login ****************************
+10/26/2022 08:18:04 PM: INFO: ***************** Successfully delete an exiting employee ****************************
+10/26/2022 08:18:04 PM: INFO: ***************** Successfully delete an exiting employee ****************************
+10/26/2022 08:18:04 PM: INFO: ***************** Successfully delete an exiting employee ****************************
+10/26/2022 08:18:04 PM: INFO: ***************** Successfully delete an exiting employee ****************************
+10/26/2022 08:18:04 PM: INFO: ***************** Successfully delete an exiting employee ****************************
+10/26/2022 08:18:04 PM: INFO: ************** Completed TC_PIM_03 *********************
+10/26/2022 08:18:04 PM: INFO: ************** Completed TC_PIM_03 *********************
+10/26/2022 08:18:04 PM: INFO: ************** Completed TC_PIM_03 *********************
+10/26/2022 08:18:04 PM: INFO: ************** Completed TC_PIM_03 *********************
+10/26/2022 08:18:04 PM: INFO: ************** Completed TC_PIM_03 *********************
