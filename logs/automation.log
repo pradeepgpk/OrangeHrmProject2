@@ -1280,3 +1280,22 @@
 12/18/2022 01:47:27 PM: INFO: ***************** Successfully Login ****************************
 12/18/2022 01:47:41 PM: INFO: ***************** Successfully Edit an exiting employee *******************
 12/18/2022 01:47:41 PM: INFO: ************** Completed TC_PIM_02 *********************
+12/18/2022 02:18:02 PM: INFO: ====== WebDriver manager ======
+12/18/2022 02:18:02 PM: INFO: Get LATEST chromedriver version for google-chrome 108.0.5359
+12/18/2022 02:18:04 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\108.0.5359\chromedriver.exe] found in cache
+12/18/2022 02:18:05 PM: INFO: ***************** TC_Login_01 ***********************
+12/18/2022 02:18:05 PM: INFO: ***************** Varifying Employee Login ***********************
+12/18/2022 02:18:23 PM: INFO: ***************** Login Unsuccessful Test Is Failed ***********************
+12/18/2022 02:19:25 PM: INFO: ====== WebDriver manager ======
+12/18/2022 02:19:26 PM: INFO: Get LATEST chromedriver version for google-chrome 108.0.5359
+12/18/2022 02:19:27 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\108.0.5359\chromedriver.exe] found in cache
+12/18/2022 02:19:28 PM: INFO: ***************** TC_Login_01 ***********************
+12/18/2022 02:19:28 PM: INFO: ***************** Varifying Employee Login ***********************
+12/18/2022 02:19:47 PM: INFO: ***************** Login Unsuccessful Test Is Failed ***********************
+12/18/2022 02:26:35 PM: INFO: ====== WebDriver manager ======
+12/18/2022 02:26:36 PM: INFO: Get LATEST chromedriver version for google-chrome 108.0.5359
+12/18/2022 02:26:37 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win32\108.0.5359\chromedriver.exe] found in cache
+12/18/2022 02:26:39 PM: INFO: ***************** TC_Login_01 ***********************
+12/18/2022 02:26:39 PM: INFO: ***************** Varifying Employee Login ***********************
+12/18/2022 02:26:55 PM: INFO: ***************** Login Successful Test Is Passed ***********************
+12/18/2022 02:26:56 PM: INFO: ************** Completed TC_Login_01 *********************

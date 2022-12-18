@@ -5,7 +5,7 @@ class Login:
     txtbx_username_xpath = "//input[@placeholder='Username']"
     txtbx_password_xpath = "//input[@placeholder='Password']"
     btn_login_button ="//button[normalize-space()='Login']"
-    txt_pim_xpath = "//h6"
+    txt_pim_xpath = "//span[text()='PIM']"
     mes_invalid_xpath = "//p[text()='Invalid credentials']"
 
     def __init__(self,driver):
