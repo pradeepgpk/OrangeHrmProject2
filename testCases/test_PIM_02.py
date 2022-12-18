@@ -25,6 +25,7 @@ class Test_PIM_02:
         self.loginpageobj.clickLogin()
         self.logger.info("***************** Successfully Login ****************************")
         self.pimpageobj = AddNewEmployee(self.driver)
+        self.pimpageobj.selectPim()
         self.pimpageobj.employeename("pradeep")
         self.pimpageobj.search()
         self.pimpageobj.edit()
@@ -40,5 +41,3 @@ class Test_PIM_02:
             self.driver.close()
             assert False
         self.logger.info("************** Completed TC_PIM_02 *********************")
-
-

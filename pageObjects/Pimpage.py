@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 
 
 class AddNewEmployee:
+    pim_select_xpath = "//span[text()='PIM']"
     pim_add_xpath = "//button[normalize-space()='Add']"
     fst_name_xpath = "//input[@placeholder='First Name']"
     lst_name_xpath = "//input[@placeholder='Last Name']"
@@ -34,25 +35,37 @@ class AddNewEmployee:
     txt_save_mes_xpath = "//*[text()='Successfully Saved']"
     txt_update_mes_xpath = "//*[text()='Successfully Updated']"
     txt_delete_mes_xpath = "//*[text()='Successfully Deleted']"
+
     def __init__(self, driver):
         self.driver = driver
+
+    def selectPim(self):
+        self.driver.find_element(By.XPATH,self.pim_select_xpath).click()
+
     def addPim(self):
         self.driver.find_element(By.XPATH,self.pim_add_xpath).click()
+
     def firstName(self,firstname):
         self.driver.find_element(By.XPATH,self.fst_name_xpath).send_keys(firstname)
+
     def lastName(self,lastname):
         self.driver.find_element(By.XPATH,self.lst_name_xpath).send_keys(lastname)
+
     def clickSave(self):
         time.sleep(2)
         self.driver.find_element(By.XPATH,self.save_btn_xpath).click()
+
     def nickName(self,nickname):
         time.sleep(3)
         self.driver.find_element(By.XPATH, self.txt_nickname_xpath).send_keys(nickname)
+
     def otherId(self,otherid):
-        time.sleep(2)
+        time.sleep(3)
         self.driver.find_element(By.XPATH, self.other_id_Xpath).send_keys(otherid)
+
     def drivingLicenseNumber(self,driverlicnum):
         self.driver.find_element(By.XPATH, self.driver_lic_num_xpath).send_keys(driverlicnum)
+
     def licenseExpiryDate(self,licexpdate):
         self.driver.find_element(By.XPATH, self.lic_exp_date_xpath).send_keys(licexpdate)
     def ssnNumber(self,ssn):

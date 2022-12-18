@@ -1,5 +1,4 @@
 import time
-
 from pageObjects.LoginPage import Login
 from pageObjects.Pimpage import AddNewEmployee
 from utilities import customlogger
@@ -25,6 +24,7 @@ class Test_PIM_03:
         self.loginpageobj.clickLogin()
         self.logger.info("***************** Successfully Login ****************************")
         self.pimpageobj = AddNewEmployee(self.driver)
+        self.pimpageobj.selectPim()
         self.pimpageobj.employeename("pradeep")
         self.pimpageobj.search()
         self.pimpageobj.delete()

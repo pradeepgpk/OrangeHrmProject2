@@ -2,6 +2,7 @@ import time
 from pageObjects.LoginPage import Login
 from utilities import customlogger
 from utilities.readproperties import ReadConfig
+
 class Test_Login_01:
 
     baseurl = ReadConfig.getApplicationURL()

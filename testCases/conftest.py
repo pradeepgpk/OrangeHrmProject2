@@ -8,11 +8,11 @@ def setup():
     service = ChromeService(executable_path=ChromeDriverManager().install())
     return webdriver.Chrome(service=service)
 
-def pytest_configure(config):
-    config._metadata['Project Name'] = 'OrangeHRM'
-    config._metadata['Tester'] = 'Pradeep G'
+# def pytest_configure(config):
+#     config._metadata['Project Name'] = 'OrangeHRM'
+#     config._metadata['Tester'] = 'Pradeep G'
 
-@pytest.mark.optionalhook
-def pytest_metadata(metadata):
-    metadata.pop("Plugins", None)
-    metadata.pop("Packages", None)
+# @pytest.mark.optionalhook
+# def pytest_metadata(metadata):
+#     metadata.pop("Plugins", None)
+#     metadata.pop("Packages", None)
